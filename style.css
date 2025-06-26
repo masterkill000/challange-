@@ -1,0 +1,119 @@
+* {
+body {
+    background: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+}
+#img{
+    width: 500px  ;
+    height: 200px;
+}
+
+
+
+
+.container {
+    max-width: 500px;
+    background: white;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(60, 40, 20, 0.08);
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.recipe-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 24px 0 8px 0;
+    font-family: 'Georgia', serif;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.desc {
+    color: blanchedalmond;
+    margin-bottom: 24px;
+    font-size: 1.03em;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.prep-time {
+    background: #f9eceb;
+    padding: 16px 24px;
+    border-radius: 12px;
+    margin: 0 24px 32px 24px;
+    font-size: 1em;
+}
+
+.prep-time ul {
+    margin: 0;
+    padding-left: 22px;
+    color: brown;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 22px 0 10px 24px;
+    color: chocolate;
+    font-family: 'Georgia', serif;
+}
+
+ul.ingredients {
+    list-style: disc;
+    margin: 0 0 20px 42px;
+    padding: 0;
+    color: chocolate;
+    font-size: 1em;
+}
+
+ol.instructions {
+    margin: 0 0 20px 44px;
+    padding: 0;
+    color: burlywood;
+    font-size: 1em;
+}
+
+ol.instructions li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+ol.instructions strong {
+    color: burlywood;
+}
+
+.nutrition-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 16px ;
+    font-size: 1em;
+}
+
+.nutrition-table td {
+    padding: 8px 0;
+    vertical-align: top;
+}
+
+.nutrition-table td:first-child {
+    color: chocolate;
+    font-weight: 500;
+    width: 50%;
+}
+
+.nutrition-table td:last-child {
+    color: chocolate;
+    font-weight: bold;
+    width: 50%;
+    text-align: right;
+}
